@@ -16,7 +16,7 @@ import { useLocalStorageState } from "./useLocalStorageState";
 export const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-export const KEY = "4ad9bb0e";
+export const KEY = "";
 
 export default function App() {
   const [query, setQuery] = useState(""),
